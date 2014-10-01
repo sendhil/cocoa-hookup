@@ -42,7 +42,7 @@ class CocoaHookup
   end
 
   def post_checkout(*argv)
-    if argv.length != 3
+    if argv.length != 4
       puts "Invalid arguments for 'cocoa-hookup post-checkout'. Usage: 'cocoa-hookup post-checkout old-rev new-rev branching-flag'"
       return
     end
