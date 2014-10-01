@@ -63,7 +63,6 @@ class CocoaHookup
   def install
     append(post_checkout_file, 0777) do |body, f|
       f.puts "#!/bin/bash" unless body
-      f.puts "echo Running post-checkout script"
       f.puts %(cocoa-hookup post-checkout "$@") if body !~ /cocoa-hookup/ #TODO: Remove ./
     end
 
