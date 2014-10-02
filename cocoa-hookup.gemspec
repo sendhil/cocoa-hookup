@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'cocoa-hookup'
-  s.version       = '0.0.1'
+  s.version       = '0.0.3'
   s.platform      = Gem::Platform::RUBY
   s.date          = '2014-10-01'
   s.summary       = "Simplify the Cocoapods dance that occurs when switching between branches"
